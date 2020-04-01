@@ -21,5 +21,5 @@ save Shelf.
 # How the script works
 import all parts of the weapon or separately (the main thing is that there is a main part that has root joint)
 via SETools .semodel in the scene
-and click on the icon with the script that you created in the Shelf Editor to run the script and collect weapons
+and click on the icon with the script that you created in the Shelf Editor to run the script and collect weapons.
 
