@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+
+* linguist-vendored
+*.py linguist-vendored=false
