@@ -14,22 +14,22 @@ installing the script
       copy/paste from cod_weaponbuild22.py to command
       save Shelf
 
+
+
 how the script works
       importing the bulk of your weapons
       and any additional part of it
       via SETools .semodel in the scene
       and click on the icon with the script that you created in the Shelf Editor to earn the script and collect weapons
-
+      
+      
+      
+      
 import everything .semodel weapon parts via SETools
-click on the icon with the script that you created in the Shelf Editor to earn the script and collect weapons
+      click on the icon with the script that you created in the Shelf Editor to earn the script and collect weapons
 
 
 
-
-
-
-
-wdqwdqdqd
 
 
 
