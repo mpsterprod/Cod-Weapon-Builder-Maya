@@ -9,7 +9,7 @@ https://github.com/dtzxporter/SETools
 
 # Setup
 
-installing the script
+Installing the script:
 go to "Shelf Editor",
 select your Shelf,
 add new item (add new Script to Shelf),
@@ -18,10 +18,8 @@ copy/paste from cod_weaponbuild22.py to command,
 save Shelf.
 
 
-
-
-* how the script works
+# How the script works
 import all parts of the weapon or separately, the main thing is that there is a main part that has root joint
 via SETools .semodel in the scene
-and click on the icon with the script that you created in the Shelf Editor to earn the script and collect weapons
+and click on the icon with the script that you created in the Shelf Editor to run the script and collect weapons
 
