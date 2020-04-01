@@ -8,9 +8,17 @@ you need to pre-install dtzxporter/SETools in Maya:
 https://github.com/dtzxporter/SETools
 
 # Setup
+```
+installing the script
+go to "Shelf Editor",
+select your Shelf,
+add new item (add new Script to Shelf),
+go to command tab and switch lang to Python, 
+copy/paste from cod_weaponbuild22.py to command,
+save Shelf.
+```
 
-* installing the script
-go to "Shelf Editor",select your Shelf,add new item (add new Script to Shelf),go to command tab and switch lang to Python, copy/paste from cod_weaponbuild22.py to command, save Shelf.
+
 
 * how the script works
 import all parts of the weapon or separately, the main thing is that there is a main part that has root joint
