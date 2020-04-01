@@ -6,6 +6,7 @@ For this script to work:
 you need to pre-install dtzxporter/SETools in Maya: 
 https://github.com/dtzxporter/SETools
 
+=====================
 installing the script
 go to "Shelf Editor"
 select your Shelf
