@@ -30,7 +30,21 @@ def Cod_Models_builder():
 			if len(mc.ls(i,dagObjects=1))==1:
 				mc.delete(i)
 		else:
-			if mc.getAttr(i + '.translateX')==0 and mc.getAttr(i + '.translateY')==0 and mc.getAttr(i + '.translateZ')==0 :
+			# check skin cluster 
+			ds = mc.listConnections(i)
+			if ds == [] or ds is None:
+				vall.append(i)
+				continue
+			nex_t = False
+			for objff in ds:
+				if mc.nodeType(objff)=="dagPose" or mc.nodeType(objff)=="skinCluster":
+					null_j.append(i)
+					nex_t = True
+					break
+			if nex_t:
+				continue
+
+			if mc.getAttr(i + '.translateX')==0 and mc.getAttr(i + '.translateY')==0 and mc.getAttr(i + '.translateZ')==0:
 				if len(mc.ls(i,dagObjects=1))>1:
 					# add mesh
 					null_j.append(i)
@@ -53,6 +67,8 @@ def Cod_Models_builder():
 		if jr.find("_weight")!=-1:
 			mc.rename(jr,jr.replace("_weight",""))
 	del null_j, vall
+
+	
 
 	# DELETE OTHER "Joints" transfroms objects
 	root_grp_j = ''
